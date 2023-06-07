@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+	.todo-list__item {
+		grid-template-columns: 1fr;
+	}
+
+	.todo-list__item__text {
+		margin-bottom: 10px;
+	}
+
+	.todo-list__item__delete {
+		margin-left: auto;
+	}
+}
